@@ -31,9 +31,17 @@ The extension uses Chrome’s `bookmarks` API to:
 4. Click **Load unpacked** (top left)
 5. Select the project folder
 
+## 📌 Pinning the Extension
+
+To use the extension easily from the toolbar:
+
+1. Click the puzzle piece 🧩 icon in Chrome
+2. Find **Bookmark URL Updater**
+3. Click the pin icon 📌 to pin it to the toolbar
+
 ## Customize
 
-Change the bookmark name here:
+Change the bookmark name in `background.js`:
 
 ```js
-const BOOKMARK_NAME = "X";
+const BOOKMARK_NAME = "CMD";
