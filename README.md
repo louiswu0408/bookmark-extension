@@ -27,8 +27,8 @@ The extension uses Chrome’s `bookmarks` API to:
 
 1. Clone or download this repo
 2. Open Chrome and go to `chrome://extensions/`
-3. Enable **Developer Mode**
-4. Click **Load unpacked**
+3. Enable **Developer Mode** (top right)
+4. Click **Load unpacked** (top left)
 5. Select the project folder
 
 ## Customize
