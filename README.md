@@ -1,8 +1,7 @@
 # Bookmark URL Updater (Chrome Extension)
+Turn any bookmark into a live shortcut that always points to your current tab.
 
-A simple Chrome extension that updates or creates a bookmark with a fixed name using the current tab URL.
-
-## What it does
+## 🚀 What it does
 
 - Click the extension icon
 - Gets the current tab URL
@@ -10,7 +9,7 @@ A simple Chrome extension that updates or creates a bookmark with a fixed name u
 - Updates that bookmark’s URL
 - If it doesn’t exist, creates it in the Bookmarks Bar
 
-## How it works
+## 🧠 How it works
 
 The extension uses Chrome’s `bookmarks` API to:
 
@@ -18,7 +17,7 @@ The extension uses Chrome’s `bookmarks` API to:
 - Match a bookmark by title
 - Update its URL or create it if missing
 
-## Files
+## 📂 Files
 
 - `manifest.json` – Chrome extension config
 - `background.js` – Main logic for updating bookmarks
@@ -45,3 +44,4 @@ Change the bookmark name in `background.js`:
 
 ```js
 const BOOKMARK_NAME = "CMD";
+```
