@@ -35,7 +35,7 @@ The extension uses Chrome’s `bookmarks` API to:
 
 To use the extension easily from the toolbar:
 
-1. Click the puzzle piece 🧩 icon in Chrome
+1. Click the puzzle piece 🧩 icon in Chrome (top right)
 2. Find **Bookmark URL Updater**
 3. Click the pin icon 📌 to pin it to the toolbar
 
