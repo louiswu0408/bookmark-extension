@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark URL Updater",
+  "version": "1.0",
+  "permissions": ["tabs", "bookmarks", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Update Bookmark"
+  }
+}
